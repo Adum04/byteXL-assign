@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+.env
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Django
+/staticfiles/
+/media/
+/migrations/__pycache__/
+/*.log
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS system files
+.DS_Store
+
+# Python cache
+*.py[cod]
+*$py.class
+
+# OS/Editor backups
+*~
